@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            My <span>Portfolio</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="gradient-btn">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Lalit</span></h1>
+            <h2>I'm a <span id="job-title">Web Developer</span></h2>
+            <p>Versatile digital creator with expertise in video editing, UI/UX design, and web development. Passionate
+                about crafting seamless user experiences, captivating visuals, and functional, responsive websites. I
+                bring ideas to life through a blend of storytelling, intuitive design, and clean code, delivering
+                memorable and impactful digital solutions.</p>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github" id="git"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square" id="linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt" id="insta"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter" id="twitter"></i>
+                </a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img.webp" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img.webp" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I am a Passionate Web Developer, UI/UX Designer and Video Editor.<br>
+                I have 3+ years of Experience in Web Development & Design.<br>
+                Worked on 15+ Successful projects.<br>
+                <br>
+                My Skills Include:<br>
+                1. HTMl & CSS & Javascript<br>
+                2. Angular JS & Vue JS<br>
+                3. Tailwind & BootStrap<br>
+                4. React JS & Node JS<br>
+                5. Mongo DB & Express JS<br>
+                6. Figma & Adobe XD<br>
+                7. Adobe Premier Pro
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI/UX Design</h4>
+                    <p>"Creating intuitive and visually compelling designs that focus on user experience and engagement.
+                        I specialize in transforming complex ideas into clean, functional interfaces that users love."
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Web Developer</h4>
+                    <p>"Bringing your ideas to life with responsive, high-performance websites. I code with precision
+                        and creativity to ensure seamless, user-centered digital experiences across all devices."</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-video"></i>
+                    <h4>Video Editor</h4>
+                    <p>"Crafting visually impactful stories through editing. From corporate promos to social media
+                        content, I enhance raw footage with a keen eye for storytelling and visual appeal."
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="project1.png">
+                <h3>Project 1</h3>
+                <p>A personal portfolio site to showcase your skills, projects, and resume. Includes sections like
+                    About, Projects, Services, and Contact, with a sleek and responsive design.</p>
+                <div class="btn">Review</div>
+            </div>
+            <div class="project-card">
+                <img src="project2.png">
+                <h3>Project 2</h3>
+                <p>A fully functional online store with features like product listings, search, shopping cart, and
+                    payment gateway integration. Built with a focus on user experience and security.</p>
+                <div class="btn">Review</div>
+            </div>
+            <div class="project-card">
+                <img src="project3.png">
+                <h3>Project 3</h3>
+                <p>A web app for organizing tasks, setting deadlines, and tracking progress. Includes categories,
+                    priorities, and a clean dashboard to help users stay productive.</p>
+                <div class="btn">Review</div>
+            </div>
+            <div class="project-card">
+                <img src="project4.png">
+                <h3>Project 4</h3>
+                <p>A blogging platform with features for creating, editing, and commenting on posts. Includes user
+                    authentication, rich-text editing, and category/tag filtering.</p>
+                <div class="btn">Review</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form" action="https://formspree.io/f/xvgokqlz" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text"name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="number" placeholder="Phone Number" required>
+                    <input type="text" name="sub" placeholder="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-group2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/lalitdhakarey" target="_blank">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lalit-dhakarey-75124427b/" target="_blank">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="https://www.x.com/" target="_blank">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © 2024 My Portfolio
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
